@@ -25,7 +25,7 @@ export default function Navbar() {
         {/* LOGO */}
         <a
           href="#home"
-          className="text-[25px] font-extrabold tracking-[-1.5px]"
+          className="text-[25px] text-black font-extrabold tracking-[-1.5px]"
         >
           Neatora
         </a>
