@@ -8,11 +8,11 @@ import {
 } from "lucide-react";
 
 const links = [
-  ["Home", "#home"],
+  ["Home", "/"],
   ["Services", "/Services"],
   ["Why Us", "/WhyUs"],
   ["Testimonials", "/Testimonals"],
-  ["Contact", "#contact"],
+  ["Contact", "/Contact"],
 ];
 
 export default function Navbar() {
@@ -45,7 +45,7 @@ export default function Navbar() {
 
         {/* DESKTOP BUTTON */}
         <a
-          href="#contact"
+          href="/Contact"
           className="hidden items-center gap-2 rounded-full bg-[#101510] px-6 py-3 text-[13px] font-bold text-white transition hover:-translate-y-1 lg:flex"
         >
           Book a Cleaner
